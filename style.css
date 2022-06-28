@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-image: url(background.png);
+    
+}
+
+@font-face {
+    font-family: "starjhol";
+    src: url(starjedi/Starjhol.ttf);
+}
+h1{
+    font-family: "starjhol";
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+.title{
+    height: 120vh;
+}
+@font-face {
+    font-family: "starjedi";
+    src: url(starjedi/Starjedi.ttf);
+}
+#remetente{
+    font-family: Arial;
+    color: #24b9dd;
+    text-align: center;
+    font-size: 40px;
+    height: 120vh;
+}
+#msg{
+    font-family: "starjedi";
+    font-size: 40px;
+    text-align: center;
+    color: #fed34f !important;
+    transform: perspective(400px) rotateX(25deg);
+    margin: auto;
+    width: 80%;
+}
+#destinatario{
+    font-family: "starjhol";
+    color: yellow;
+    font-size: 100px;
+    text-align: center;
+    height: 60vh;
+}
+#data{
+    font-family: "starjedi";
+    color: yellow;
+    font-size: 40px;
+    text-align: center;
+    height: 60vh;
+}
